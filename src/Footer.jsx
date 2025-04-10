@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="text-center text-[11px] md:text-[15px] ">
+    <footer className="text-center text-[11px] md:text-[15px] text-amber-50 mt-auto">
       Challenge by{" "}
       <a
         className="text-blue-950"

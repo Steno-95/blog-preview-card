@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+  font-family: "Figtree", "Courier New", Courier, monospace;
+}
+
+.preview:hover *,
+.preview:focus *,
+.preview:active * {
+  filter: drop-shadow(0 3px 1px rgba(0, 0, 0, 0.2));
+  /* text-shadow: 0 4px 0 rgba(0, 0, 0, 0.01); */
+
+  & h1 {
+    color: #fcc700;
+    filter: drop-shadow(0 3px 0 rgba(0, 0, 0, 0.1));
+  }
+}

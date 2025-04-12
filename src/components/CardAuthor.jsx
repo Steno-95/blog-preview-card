@@ -4,9 +4,11 @@ function CardAuthor({ children, image }) {
       <img
         src={image}
         alt="Author profile picture"
-        className="rounded-b-full w-8"
+        className="rounded-b-full w-8 h-8 xl:w-7 xl:h-7"
       />
-      <span className="text-[15px] font-bold">{children}</span>
+      <span className="text-[0.9rem] font-extrabold tracking-tight">
+        {children}
+      </span>
     </section>
   );
 }

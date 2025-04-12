@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My Solution](https://github.com/Steno-95/blog-preview-card)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site on Netlify](blog-preview-card-f-m.netlify.app)
 
 ## My process
 

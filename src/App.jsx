@@ -8,8 +8,8 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <main className="bg-linear-to-br from-amber-300 to-amber-400 h-dvh flex flex-col justify-center ">
-      <section className="my-auto  ">
+    <div className="bg-linear-to-br from-amber-300 to-amber-400 h-dvh flex flex-col justify-center ">
+      <main className="my-auto  ">
         <Card>
           <CardImage image={"/images/illustration-article.svg"} />
           <div className="space-y-1 preview">
@@ -27,9 +27,9 @@ function App() {
             Greg Hooper
           </CardAuthor>
         </Card>
-      </section>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
 

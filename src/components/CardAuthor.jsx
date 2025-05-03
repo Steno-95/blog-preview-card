@@ -1,6 +1,6 @@
 function CardAuthor({ children, image }) {
   return (
-    <section className="flex items-center pl-1 gap-3 ">
+    <article className="flex items-center pl-1 gap-3 ">
       <img
         src={image}
         alt="Author profile picture"
@@ -9,7 +9,7 @@ function CardAuthor({ children, image }) {
       <span className="text-[0.9rem] font-extrabold tracking-tight">
         {children}
       </span>
-    </section>
+    </article>
   );
 }
 
